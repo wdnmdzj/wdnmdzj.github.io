@@ -1,3 +1,35 @@
+@font-face {
+font-family: 'iconfont';
+src: url('/fonts/iconfont.eot');
+src: url('/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+url('/fonts/iconfont.woff2') format('woff2'),
+url('/fonts/iconfont.woff') format('woff'),
+url('/fonts/iconfont.ttf') format('truetype'),
+url('/fonts/iconfont.svg#iconfont') format('svg');
+}
+
+@import "//at.alicdn.com/t/c/font_3991603_i75iloyu6vb.css";
+@font-face {
+  font-family: "iconfont"; /* Project id 3991603 */
+  /* Color fonts */
+  src: 
+       url('//at.alicdn.com/t/c/font_3991603_qrucyf89t3l.woff2?t=1680409319439') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3991603_qrucyf89t3l.woff?t=1680409319439') format('woff'),
+       url('//at.alicdn.com/t/c/font_3991603_qrucyf89t3l.ttf?t=1680409319439') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yueliang:before {
+  content: "\e6b8";
+}
+
 /* 页脚与头图透明 */
 #footer {
   background: transparent !important;
